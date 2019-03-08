@@ -6,6 +6,50 @@
 		Filename: gord_base.css
 	*/
 
+/* ============================================
+Base Styles
+===============================================
+ */
+
+
+ /* ============================================
+Mobile Styles
+===============================================
+ */
+
+@media only screen and (max-width: 480px)
+{
+	nav {
+	
+		border-radius: 10px; /* edges */
+	
+		display: block;
+		margin: 0px auto;
+		margin-top: 35px;
+		overflow: hidden;
+		width: 95px;
+		height: 100px;
+		float: left;
+	}
+	
+	nav ul {
+			margin: 0px;
+			padding: 0px;
+	}
+
+	nav ul li {
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		font-size: 0.9em;
+		text-align: left;
+		margin-top: 1%;
+		border-collapse: collapse;
+	
+	}
+	
+}
+
+	
+
 
 /* =============================================
 	Tablet layout styles used by devices
@@ -19,15 +63,9 @@
 html, body {
 	font-size: 16px;
 	background-color: rgb(0, 0, 0);
-	color: rgb(165, 165, 165);
+	color: rgb(165, 165, 165);   
 
-   
 }
-}
-/* adds pic to background */
-/* html{
-	background: #ddd url(js.jpg) repeat;
-} */
 
 body {
 	width: 89.9%;
@@ -45,6 +83,7 @@ header img {
  height: 295px;
 
 }
+
 header h1 {
 font-size: 1.5em;
 
@@ -54,13 +93,7 @@ body h2 {
  font-size: 1.2em;
  color: rgb(156, 156, 80);
 	}
-	/* body h6 { 
-		font-size: 1.2em;
-		color: rgb(159, 159, 147);
-
-	} */
-
-
+	
 article {
 	width: 94%;
 	float: none;
@@ -88,7 +121,6 @@ nav ul li {
 	border-collapse: collapse;
 }
 
-/* Nav Font > 694px */
 
 nav ul li a:visited {
 	color: rgb(206, 203, 203);
@@ -191,7 +223,7 @@ blockquote.blockQuoteSkills {
 	margin: 5% 2% 7% 0%;
 	float: left;
 	padding: 3%;
-}
+}}
 /* =============================================
 	Desktop layout styles used by  devices
 	769px and larger.
