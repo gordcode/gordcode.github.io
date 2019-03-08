@@ -27,11 +27,15 @@ Mobile Styles
 		margin: 0px auto;
 		margin-top: 25px;
 		overflow: hidden;
+	
 		width: 9em;
 		height: 100%;
 		float: left;
 	}
-
+	nav ul li a:hover {
+		background-color: rgb(45, 20, 20);
+		color: rgb(255, 255, 255);
+	}
 	
 	nav ul {
 			margin: 0px;
@@ -40,19 +44,17 @@ Mobile Styles
 
 	nav ul li {
 		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-		font-size: 1.0em;
+		font-size: 1.3em;
 		text-align: left;
 		margin-top: 1%;
 		border-collapse: collapse;
 	color: rgb(206, 203, 203);
 	
 	}
-	nav ul li a:hover {
-		background-color: rgb(55, 26, 26);
-		color: white;
-	}
+
+	
 	nav ul li a:visited {
-		color: rgb(206, 203, 203);
+		color: rgb(189, 185, 185);
 		
 	}
 	header a#currentPage{
@@ -96,6 +98,10 @@ Mobile Styles
 		color: rgb(203, 197, 197);
 		font-size: 1.2em;
 	}
+	body aside img {
+		height: 11em;
+		margin: 3% 0% 0% 0%;
+	 }
 	
 }
 
@@ -174,7 +180,7 @@ nav ul li {
 
 
 nav ul li a:visited {
-	color: rgb(206, 203, 203);
+	color: rgb(215, 212, 212);
 	
 }
 
