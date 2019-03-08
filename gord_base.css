@@ -32,14 +32,14 @@ margin-top:0px;
     margin-top:0px;
 }
 
-#link:hover {
+/* #link:hover {
         animation: color 1s ease-in-out 0 1 normal both;
 }
 
 @keyframes color {
     0% { background: white; }
     100% { background: #F6F6F6; }
-}
+} */
   
 section {
   clear: left;
@@ -87,7 +87,7 @@ Section ul {
 
 html, button, input, select, textarea {
 	font-family: serif;
-	color: rgb(120, 120,110);
+	color: rgb(199, 199, 187);
 
 	}
 
@@ -97,7 +97,7 @@ body {
 	line-height: 1.4;
 }
 nav ul li a:visited {
-	color: rgb(100, 100,100);
+	color: rgb(208, 206, 206);
 	margin-bottom: 1%;
 	margin-top: 1%;
 }
