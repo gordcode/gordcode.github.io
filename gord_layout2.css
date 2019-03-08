@@ -102,6 +102,15 @@ Mobile Styles
 		height: 11em;
 		margin: 3% 0% 0% 0%;
 	 }
+	 blockquote.blockQuoteAbout {
+		font-size: 1.0em;
+		width: 94%;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		margin: 0 0 5 0;
+		box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+		border-radius: 10%;
+		text-align: left;
+	}
 	
 }
 
@@ -389,7 +398,8 @@ body {
  	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
  	margin: 0 0 5 0;
  	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
- 	border-radius: 10%;
+	 border-radius: 10%;
+	 text-align: left;
  }
 
 
