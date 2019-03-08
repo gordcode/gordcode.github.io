@@ -25,9 +25,9 @@ Mobile Styles
 	
 		display: block;
 		margin: 0px auto;
-		margin-top: 35px;
+		margin-top: 25px;
 		overflow: hidden;
-		width: 95px;
+		width: 9em;
 		height: 100%;
 		float: left;
 	}
@@ -40,12 +40,61 @@ Mobile Styles
 
 	nav ul li {
 		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-		font-size: 0.9em;
+		font-size: 1.0em;
 		text-align: left;
 		margin-top: 1%;
 		border-collapse: collapse;
-	color: rgb(255, 255, 255);
+	color: rgb(206, 203, 203);
 	
+	}
+	nav ul li a:hover {
+		background-color: rgb(55, 26, 26);
+		color: white;
+	}
+	nav ul li a:visited {
+		color: rgb(206, 203, 203);
+		
+	}
+	header a#currentPage{
+		background-color: rgb(69, 7, 7);
+	}
+	
+	section {
+		clear: left;
+		float: left;
+		width: 90%;
+		padding-left: 4%;
+	}
+ 
+	section.first h3 {
+		float: left;
+		margin: 0px;
+		padding-top: 5px;
+		font-size: 1.0em;
+		color: rgb(172, 172, 88);
+	}
+ 
+ 
+	section.first h4{
+		float:right;
+		margin: 0px;
+		padding-top: 2px;
+		color: rgb(156, 156, 156);
+		font-size: 0.75em;
+	}
+ 
+	section h5 {
+		font-size: 0.75em;
+		margin: 0px;
+		padding-top: 2px;
+		color: rgb(186, 186, 95);
+	}
+ 
+	Section ul {
+		margin: 0px;
+		padding-top: 0px;
+		color: rgb(203, 197, 197);
+		font-size: 1.2em;
 	}
 	
 }
