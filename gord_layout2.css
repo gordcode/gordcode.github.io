@@ -28,9 +28,10 @@ Mobile Styles
 		margin-top: 35px;
 		overflow: hidden;
 		width: 95px;
-		height: 100px;
+		height: 100%;
 		float: left;
 	}
+
 	
 	nav ul {
 			margin: 0px;
@@ -43,6 +44,7 @@ Mobile Styles
 		text-align: left;
 		margin-top: 1%;
 		border-collapse: collapse;
+	color: rgb(255, 255, 255);
 	
 	}
 	
