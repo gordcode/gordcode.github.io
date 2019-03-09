@@ -141,9 +141,21 @@ Mobile Styles
 		padding-left: 0.5%;
 		padding-right: 0.5%;
 	}
+	canvas, video {
+		display: inline-block;
+		margin-top: -50%;
+		margin-bottom: -100%; 
+		}
+		audio {
+			position: absolute;
+			/* margin-bottom: 0%;
+			margin-top: 0%; */
+			padding-bottom: -30%;
+		}
 	footer {
     margin-top: 40%;
 }
+
 	
 }
 
