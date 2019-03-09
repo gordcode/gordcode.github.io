@@ -19,15 +19,21 @@ Mobile Styles
 
 @media only screen and (max-width: 480px)
 {
+
+	header img {
+		float: none;
+		width: 100%;
+		margin: 2% 0% -10% 0%;
+		height: 250px;
+	 
+	 }
 	nav {
 	
 		border-radius: 10px; /* edges */
-	
 		display: block;
 		margin: 0px auto;
-		margin-top: 25px;
+		margin-top: 10px;
 		overflow: hidden;
-	
 		width: 9em;
 		height: 100%;
 		float: left;
@@ -104,10 +110,10 @@ Mobile Styles
 	 }
 	 blockquote.blockQuoteAbout {
 		font-size: 1.0em;
-		width: 94%;
+		width: 94.0%;
 		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-		margin: 0 0 5 0;
-		box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+		margin: -50% 0% 10% 3%;
+		box-shadow: rgba(31, 61, 31, 0.9) 10px 0px 10px,  rgba(31, 61, 31, 0.9) -10px 0px 10px;
 		border-radius: 10%;
 		text-align: left;
 	}
@@ -125,8 +131,17 @@ Mobile Styles
 		color: rgb(156, 156, 80);
 		}
 	body h2{position: static}
-	body {background-color: rgb(24, 19, 19);}
 
+	body	{
+		
+		background-color: rgb(11, 8, 8);
+		-moz-box-shadow: rgba(43, 38, 38, 0.783) 5px 0px 25px,  rgba(31, 61, 31, 0.9) -5px 0px 25px;
+		-webkit-box-shadow: rgba(31, 61, 31, 0.9) 5px 0px 25px,  rgba(31, 61, 31, 0.9) -5px 0px 25px;
+		box-shadow: rgba(31, 61, 31, 0.9) 5px 0px 25px,  rgba(31, 61, 31, 0.9) -5px 0px 25px;
+		padding-left: 0.5%;
+		padding-right: 0.5%;
+	}
+	
 	
 }
 

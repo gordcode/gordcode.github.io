@@ -225,7 +225,7 @@ nav ul li a:hover {
 }
 nav ul li {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-size: 0.9em;
+	font-size: 1.0.em;
 }
 
 
@@ -372,6 +372,7 @@ header img {
 
 header a#currentPage{
 	background-color: rgb(50, 0, 0);
+
 }
 body p, body address {
 	margin: 3.5% 1%;
@@ -401,7 +402,7 @@ blockquote h1{
 	padding-left: 5%;
 }
 
-blockquote.blockQuoteAbout {
+/* blockquote.blockQuoteAbout {
   background: black;
   border-left: 5px solid rgba(176,124,48,0.5);
   quotes: "\201C""\201D""\201C""\2019";
@@ -411,7 +412,7 @@ blockquote.blockQuoteAbout {
 	float: left;
 	padding: 5%;
 	padding-right: 6%;
-}
+} */
 
 blockquote#blockQuoteHome {
   background: black;
