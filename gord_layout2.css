@@ -111,6 +111,22 @@ Mobile Styles
 		border-radius: 10%;
 		text-align: left;
 	}
+	body h1 {
+		margin: 1%;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		font-size: 1.2em;
+		color: rgb(212, 220, 227);
+		position: relative;
+	}
+	body h2 {
+		margin-top: 60%;
+	
+		font-size: 1.2em;
+		color: rgb(156, 156, 80);
+		}
+	body h2{position: static}
+	body {background-color: rgb(24, 19, 19);}
+
 	
 }
 
@@ -312,6 +328,7 @@ hr {
 html, body {
  font-size: 1.05em;
  color: rgb(165, 165, 165);
+ 
 }
 
 body aside img {
