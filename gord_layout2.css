@@ -24,7 +24,7 @@ Mobile Styles
 		float: none;
 		width: 100%;
 		margin: 2% 0% -10% 0%;
-		height: 250px;
+		height: 230px;
 	 
 	 }
 	nav {
@@ -204,6 +204,7 @@ body h2 {
  font-size: 1.2em;
  color: rgb(156, 156, 80);
 	}
+	
 	
 article {
 	width: 94%;

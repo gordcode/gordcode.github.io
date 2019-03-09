@@ -244,7 +244,9 @@ figure {
 }
 audio, canvas, video {
 	display: inline-block;
-}
+	
+	}
+
 
 
 
