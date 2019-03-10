@@ -18,12 +18,12 @@ article, aside, details, dl, figcaption, figure, footer, ser, hgroup, main, nav,
 	 Column Sections
 	 =============================================
 */
-/* #link {
+#link {
 width:500px;
 height:40px;
 border:dashed #666 2px;
 margin-top:0px;
-} */
+}
 #link
 {
     width:500px;
@@ -32,14 +32,7 @@ margin-top:0px;
     margin-top:0px;
 }
 
-/* #link:hover {
-        animation: color 1s ease-in-out 0 1 normal both;
-}
 
-@keyframes color {
-    0% { background: white; }
-    100% { background: #F6F6F6; }
-} */
   
 section {
   clear: left;
@@ -404,7 +397,7 @@ blockquote h1{
 	padding-left: 5%;
 }
 
-/* blockquote.blockQuoteAbout {
+blockquote.blockQuoteAbout {
   background: black;
   border-left: 5px solid rgba(176,124,48,0.5);
   quotes: "\201C""\201D""\201C""\2019";
@@ -414,7 +407,7 @@ blockquote h1{
 	float: left;
 	padding: 5%;
 	padding-right: 6%;
-} */
+}
 
 blockquote#blockQuoteHome {
   background: black;
@@ -471,4 +464,4 @@ footer {
 
 
 
-}
+
