@@ -14,25 +14,12 @@
 article, aside, details, dl, figcaption, figure, footer, ser, hgroup, main, nav, section {
 	display: block;
 }
+
+
 /* =============================================
 	 Column Sections
 	 =============================================
 */
-#link {
-width:500px;
-height:40px;
-border:dashed #666 2px;
-margin-top:0px;
-}
-#link
-{
-    width:500px;
-    height:52px;
-    border:dashed #666 2px;
-    margin-top:0px;
-}
-
-
   
 section {
   clear: left;
@@ -104,8 +91,9 @@ a {
 	color: rgb(127,86,17);
 }
 a:visited {
-	color: #221a8b;
+	color: rgb(127,86,17);
 }
+
 a:hover {
 	color: rgb(167,137,47);
 }
@@ -404,25 +392,6 @@ blockquote p:last-of-type {
 	font-size: 1em;
 }
 
-blockquote.blockQuoteSkills {
-	font-size: 0.87em;
-	width: 100%;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	margin: 0 0 25% 0;
-	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	border-radius: 10%;
-}
-
-blockquote.blockQuoteSkills {
-  background: black;
-  border-left: 5px solid rgba(176,124,48,0.5);
-  quotes: "\201C""\201D""\201C""\2019";
-  	border-radius: 20%;
-	width: auto;
-	margin: 5% 2% 7% 0%;
-	float: left;
-	padding: 3%;
-}
 
 article p, article address {font-family: "Times New Roman", Times, serif;}
 

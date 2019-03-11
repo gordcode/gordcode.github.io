@@ -6,10 +6,7 @@
 		Filename: gord_base.css
 	*/
 
-/* ============================================
-Base Styles
-===============================================
- */
+
 
 
  /* ============================================
@@ -29,7 +26,7 @@ Mobile Styles
 	 }
 	nav {
 	
-		border-radius: 10px; /* edges */
+		border-radius: 10px; 
 		display: block;
 		margin: 0px auto;
 		margin-top: 10px;
@@ -168,15 +165,11 @@ Mobile Styles
 		}
 		audio {
 			position: absolute;
-			/* margin-bottom: 0%;
-			margin-top: 0%; */
 			padding-bottom: -30%;
 		}
 	footer {
     margin-top: 40%;
-}
-
-	
+}	
 }
 
 	
@@ -354,6 +347,7 @@ blockquote.blockQuoteSkills {
 	float: left;
 	padding: 3%;
 }}
+
 /* =============================================
 	Desktop layout styles used by  devices
 	769px and larger.
@@ -466,7 +460,4 @@ body {
 	 border-radius: 10%;
 	 text-align: left;
  }
-
-
-
 }
