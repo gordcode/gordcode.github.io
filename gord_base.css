@@ -88,10 +88,10 @@ nav ul li a:visited {
 */
 
 a {
-	color: rgb(127,86,17);
+	color:rgb(208, 206, 206);
 }
 a:visited {
-	color: rgb(127,86,17);
+	color: rgb(189, 185, 185);
 }
 
 a:hover {
@@ -179,7 +179,7 @@ sub {
 */
 
 ul, ol {
-	margin: 1em 0;
+	margin: 1em;
 	padding: 0 0 0 40px;
 }
 dd {
@@ -206,9 +206,8 @@ nav ul li a:hover {
 }
 nav ul li {
 	font-family: "Times New Roman","Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-size: 1.0.em;
+	font-size: 0.8em;
 }
-
 
 /* =============================================
 	Default styles for images and media
@@ -282,12 +281,7 @@ aside{
 	 padding-bottom: 3px;
 }
 
-nav {
-	width: 25%;
-	float: none;
-	margin: 5% 0% 0% 0%;
 
-}
 article {
 	width: auto;
 	float: left;
@@ -370,6 +364,7 @@ blockquote {
 	margin: 0 0 4% 0;
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	border-radius: 10%;
+
 }
 
 blockquote h1{
