@@ -18,28 +18,38 @@ Mobile Styles
 {
 
 	header img {
-		/* float: ; */
 		width: 100%;
 		margin: 0% 0% 0% 0%;
-		height:10em;
-	 
+		height:10em;	 
 	 }
-
+	 
+	 #navContainer {
+		display: flex;
+		flex-direction: row;
+	
+		   
+  }
+  #nav { 
+		width: 50%;
+		margin-left: 1em;
+  }
+#pic {
+	justify-content: flex-end;
+	width: 50%;
+}
+  #pic img {
+		max-width: 60%; 
+		height: 9em;
+		justify-content: flex-end;
+		padding-left: 2em;
+		
+  }
+	 
 	 aside{
-		float: left;
+		display: none;
  }
 	
-	nav {
-	
-		border-radius: 10px; 
-		display: block;
-		margin: 0px ;
-		margin-top: 16px;
-		overflow: hidden;
-		width: auto;
-		height: 100%;
-	
-	}
+
 	nav ul li a:hover {
 		background-color: rgb(45, 20, 20);
 		color: rgb(255, 255, 255);
@@ -111,10 +121,7 @@ Mobile Styles
 		color: rgb(203, 197, 197);
 		font-size: 1.2em;
 	}
-	body aside img {
-		height: 10em;
-		margin: 5% 3% 0% 0%;
-	 }
+
 	 blockquote.blockQuoteAbout {
 		font-size: 0.9em;
 		width: 91.0%;
@@ -136,7 +143,7 @@ Mobile Styles
 		border-bottom: 1px solid  rgba(176,124,48,0.5);
 		box-shadow: rgba(31, 61, 31, 0.9) 3px 0px 5px,  rgba(31, 61, 31, 0.9) -3px 0px 5px;
 		border-radius: 10%;
-		width: 91.0%;
+		/* width: 91.0%; */
 		margin: 5% 0% 10% 0%;
 		float: left;
 		font-size: 0.9em;
@@ -160,7 +167,7 @@ Mobile Styles
 	body h2{position: static}
 
 	body	{
-		
+		width: 80.2%;
 		background-color: rgb(11, 8, 8);
 		-moz-box-shadow: rgba(43, 38, 38, 0.783) 5px 0px 25px,  rgba(31, 61, 31, 0.9) -5px 0px 25px;
 		-webkit-box-shadow: rgba(31, 61, 31, 0.9) 5px 0px 25px,  rgba(31, 61, 31, 0.9) -5px 0px 25px;
@@ -168,15 +175,7 @@ Mobile Styles
 		padding-left: 0.5%;
 		padding-right: 0.5%;
 	}
-	/* canvas, video {
-		display: block;
-		margin-top: -50%;
-		margin-bottom: -100%; 
-		}
-		audio {
-			position: absolute;
-			padding-bottom: -30%;
-		} */
+	
 	footer {
     margin-top: 40%;
 }	
@@ -200,6 +199,31 @@ html, body {
 	color: rgb(165, 165, 165);   
 
 }
+
+#pic{
+	display: none;
+}
+
+
+#picArticle {
+	display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+#article {
+	width: 100%;
+}
+#blockQuoteHome{
+	width: 90%;
+}
+#pic1 aside {
+height: 100%;
+width: 80%;
+}
+
+
+
 
 body {
 	width: 89.9%;
@@ -229,11 +253,7 @@ body h2 {
 	}
 
 	
-article {
-	width: 94%;
-	float: none;
-	margin: 5px auto;
-}
+
 
 dl {
 	width: 90%;
@@ -267,7 +287,7 @@ nav ul li a:hover {
 	color: white;
 }
 nav ul li a {
-	color: rgb(120, 120,110);
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	display: block;
 	margin-bottom: 1%;
@@ -309,10 +329,10 @@ blockquote#blockQuoteHome {
 		border-bottom: 1px solid  rgba(176,124,48,0.5);
   /* quotes: "\201C""\201D""\201C""\2019"; */
   border-radius: 20%;
-	width: 40%;
+	/* width: 100%; */
 	margin: 5% 0% 5% 0%;
 	float: left;
-	padding: 3%;
+	padding: 6%;
 	font-size: 0.9em;
 }
 
@@ -357,12 +377,13 @@ blockquote.blockQuoteSkills {
 	float: left;
 	padding: 3%;
 }}
+body {
+	background-color: rgb(24, 19, 19);
+	-moz-box-shadow: rgba(43, 38, 38, 0.783) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
 
-/* =============================================
-	Desktop layout styles used by  devices
-	769px and larger.
-   =============================================
-*/
 
 
 
@@ -375,7 +396,11 @@ hr {
 	padding: 0; 
 	border-color: rgba(128,98,26,1.00); 
 }
-
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
 @media only screen and (min-width: 769px) {
 html, body {
  font-size: 1.05em;
@@ -387,6 +412,35 @@ body aside img {
  height: 25em;
  margin: 0% 0% 0% 0%;
 }
+
+#picArticle {
+	display: flex;
+flex-direction: row;
+
+
+
+}
+#article {
+	width: 100%;
+	margin-left: 2em;
+	
+}
+#blockQuoteHome{
+	width: 70%;
+	height: 100%;
+
+}
+#pic1 {
+	width: 50%;
+}
+#pic1 aside{
+
+width: 100%;
+height: 80%;
+margin-right: 2em;
+
+}
+
 
 nav {
 	margin-top: 5px;
