@@ -26,11 +26,12 @@ Mobile Styles
 	 #navContainer {
 		display: flex;
 		flex-direction: row;
-	
 		   
   }
   #nav { 
 		width: 50%;
+		margin-top: 2px;
+	
 		
   }
 #pic {
@@ -59,7 +60,7 @@ Mobile Styles
 	
 	
 	nav ul {
-			margin: 0px;
+			margin-top: 0px;
 			padding: 0px;
 	}
 
@@ -216,10 +217,7 @@ justify-content: space-between;
 #blockQuoteHome{
 	width: 90%;
 }
-#pic1 aside {
-height: 100%;
-width: 80%;
-}
+
 
 
 
