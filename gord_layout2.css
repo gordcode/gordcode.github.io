@@ -260,7 +260,7 @@ section.first h4{
 	float:right;
 	margin: 0px;
 	padding-top: 2px;
-	color: rgb(225, 225, 225);
+	color: rgb(210, 210, 210);
 	font-size: 0.75em;
 }
 
@@ -274,7 +274,7 @@ section h5 {
 Section ul {
 	margin: 0px;
 	padding-top: 0px;
-	color: rgb(203, 197, 197);
+	color: rgb(210, 210, 210);
 	font-size: 1.0em;
 }
 
