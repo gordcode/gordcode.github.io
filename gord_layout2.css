@@ -44,7 +44,13 @@ Mobile Styles
 		justify-content: flex-end;
 		padding-left: 2em;
 		
-  }
+	}
+	
+#pic1{
+	display: none;
+}
+
+
 	nav {
 		margin-left: 1em;
 	}
@@ -208,13 +214,28 @@ html, body {
 
 #picArticle {
 	display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
+flex-direction: row;	
 }
+
 #article {
-	width: 100%;
+	width: 50%;
+	justify-content: flex-start;
+	/* margin-left: 2em; */	
 }
+
+#pic1 {
+	width: 50%;
+	justify-content: flex-end;
+}
+#pic1 img{
+	max-width: 80%; 
+	height:25em;
+	justify-content: flex-end;
+	padding-left: 4em;
+	
+}
+
+
 #blockQuoteHome{
 	width: 90%;
 }
@@ -452,12 +473,16 @@ body aside img {
 #picArticle {
 	display: flex;
 flex-direction: row;
+}
 
-
-
+#pic1 {
+	width: 50%;
+}
+#pic{
+	display: none;
 }
 #article {
-	width: 100%;
+	width: 50%;
 	margin-left: 2em;
 	
 }
@@ -466,16 +491,7 @@ flex-direction: row;
 	height: 100%;
 
 }
-#pic1 {
-	width: 50%;
-}
-#pic1 aside{
 
-width: 100%;
-height: 80%;
-margin-right: 2em;
-
-}
 
 
 nav {
