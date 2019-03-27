@@ -183,9 +183,7 @@ Mobile Styles
 		padding-right: 0.5%;
 	}
 	
-	footer {
-    /* margin-top: 40%; */
-}	
+
 }
 
 	
@@ -206,7 +204,9 @@ html, body {
 	color: rgb(165, 165, 165);   
 
 }
-
+#move{
+	margin-bottom: 22%;
+}
 #pic{
 	display: none;
 }
@@ -464,7 +464,9 @@ html, body {
  color: rgb(165, 165, 165);
  
 }
-
+#move{
+	margin-bottom: 22%;
+}
 body aside img {
  height: 25em;
  margin: 0% 0% 0% 0%;
@@ -579,3 +581,4 @@ body {
  }
 }
 audio { width: 15em; }
+
