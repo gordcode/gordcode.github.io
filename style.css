@@ -12,6 +12,7 @@
     ". content2 ."
     ". content3 ."
    
+   
     ;
     background-color:rgb(24, 19, 19);
    
@@ -29,7 +30,7 @@
    
 
 .content1 {
-        grid-area: content1;
+        grid-area: content;
         justify-self: center; 
         background-color: rgb(11, 8, 8);
         margin-top: 2em;
@@ -37,7 +38,7 @@
        
     
     .content2 {
-            grid-area: content2;
+            grid-area: content;
             justify-self: center; 
             background-color: rgb(11, 8, 8);
             margin-top: 2em;
@@ -46,12 +47,13 @@
          
         
         .content3 {
-                grid-area: content3;
+                grid-area: content;
                 justify-self: center; 
                 background-color: rgb(11, 8, 8);
                 margin-top: 2em;
                
                 }
+              
 
  
 
@@ -65,6 +67,7 @@
         ". content1  ."
         ". content2  ."
         ". content3  ."
+       
         ;
         background-color:rgb(24, 19, 19);
       
@@ -82,23 +85,24 @@
       
     
     .content1 {
-            grid-area: content1;
+            grid-area: content;
             justify-self: center; 
             background-color:rgb(24, 19, 19);
             }
           
         
         .content2 {
-                grid-area: content2;
+                grid-area: content;
                 justify-self: center; 
                 background-color:rgb(24, 19, 19);
                 }
               
             
             .content3 {
-                    grid-area: content3;
+                    grid-area: content;
                     justify-self: center; 
-                    background-color:rgb(24, 19, 19);
-                    
+                    background-color:rgb(24, 19, 19);                  
             }
+         
+
         }
