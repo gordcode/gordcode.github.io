@@ -182,7 +182,17 @@ Mobile Styles
 		padding-left: 0.5%;
 		padding-right: 0.5%;
 	}
+	/* particles */
+#particles-js{
+	background: rgb(0, 0, 0);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index:-1;
+	height: 100%;
+	width: 100%;
 	
+}
 
 }
 
@@ -433,7 +443,20 @@ blockquote.blockQuoteSkills {
 	margin: 5% 2% 7% 0%;
 	float: left;
 	padding: 3%;
-}}
+}
+/* particles */
+#particles-js{
+	background: rgb(0, 0, 0);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index:-1;
+	height: 100%;
+	width: 100%;
+	
+}
+
+}
 body {
 	background-color: rgb(24, 19, 19);
 	-moz-box-shadow: rgba(43, 38, 38, 0.783) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
@@ -453,6 +476,7 @@ hr {
 	padding: 0; 
 	border-color: rgba(128,98,26,1.00); 
 }
+
 /* =============================================
 	Desktop layout styles used by  devices
 	769px and larger.
@@ -464,7 +488,7 @@ html, body {
  color: rgb(165, 165, 165);
  
 }
-/* sdfhskjhs */
+/* particles */
 #particles-js{
 	background: rgb(0, 0, 0);
 	position: absolute;
