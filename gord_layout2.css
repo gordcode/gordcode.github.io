@@ -22,7 +22,7 @@ Mobile Styles
 		margin: 0% 0% 0% 0%;
 		height:10em;	 
 	 }
-	 
+	 .pdf {height: 100em;}
 	 #navContainer {
 		display: flex;
 		flex-direction: row;
@@ -464,6 +464,20 @@ html, body {
  color: rgb(165, 165, 165);
  
 }
+/* sdfhskjhs */
+#particles-js{
+	background: rgb(0, 0, 0);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index:-1;
+	height: 100%;
+	width: 100%;
+	
+}
+
+
+
 #move{
 	margin-bottom: 22%;
 }
