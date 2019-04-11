@@ -11,7 +11,7 @@
     ". content1 ."
     ". content2 ."
     ". content3 ."
-   
+    ". content4 ."
    
     ;
     background-color:rgb(24, 19, 19);
@@ -53,6 +53,11 @@
                 margin-top: 2em;
                
                 }
+                .content4 {
+                    grid-area: content;
+                    justify-self: center; 
+                    background-color:rgb(24, 19, 19);                  
+            }
               
 
  
@@ -67,7 +72,7 @@
         ". content1  ."
         ". content2  ."
         ". content3  ."
-       
+        ". content4  ."
         ;
         background-color:rgb(24, 19, 19);
       
@@ -103,6 +108,10 @@
                     justify-self: center; 
                     background-color:rgb(24, 19, 19);                  
             }
-         
+            .content4 {
+                grid-area: content;
+                justify-self: center; 
+                background-color:rgb(24, 19, 19);                  
+        }
 
         }
